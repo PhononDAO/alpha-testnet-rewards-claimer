@@ -48,16 +48,11 @@ const Home: React.FC = () => {
 						Claim your PHONON rewards
 					</h2>
 					<p className='text-sm'>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Pellentesque tempor nisi ut leo volutpat, non interdum est interdum.
-						Nam dui magna, finibus pretium diam accumsan, congue accumsan lacus.
-						Nunc accumsan efficitur ultricies.
-					</p>
-					<p className='text-sm mt-3'>
-						Aenean consectetur arcu ut libero condimentum elementum. Nunc
-						faucibus leo a maximus sagittis. Nunc mattis eu justo vel rhoncus.
-						Quisque at iaculis nunc. Aenean porta tristique nisi, a viverra leo
-						rhoncus non. Praesent accumsan ornare velit vel varius.
+						We would like to thank everyone who purchased a kit and helped test
+						the foundation of the world’s next-gen open source payment protocol.
+						Our team has learned a great deal about the implementation details
+						and development hurdles that lie ahead, and we are excited to take
+						the next steps together with the PHONON community.
 					</p>
 				</div>
 
