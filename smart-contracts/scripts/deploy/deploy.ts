@@ -39,9 +39,12 @@ task("deploy")
       args.daomultisigaddress,
       merkleTree.rootHash,
       {
-        gasPrice: args.gaspriceingwei
+        maxFeePerGas: args.gaspriceingwei
           ? hre.ethers.utils.parseUnits(args.gaspriceingwei, "gwei").toString()
           : undefined,
+        maxPriorityFeePerGas: hre.ethers.utils
+          .parseUnits("1", "gwei")
+          .toString(),
       }
     );
 

@@ -23,7 +23,13 @@ type Data = {
 const REWARDS = 120_000;
 
 // People who demonstrated best effort completing the tasks but don't appear in the logs
-const MANUAL_ADDITIONS = ["0xD98A1655CC97651192a983D9692A86B54cE9b14a"];
+const MANUAL_ADDITIONS = [
+  "0xD98A1655CC97651192a983D9692A86B54cE9b14a",
+  "0x6d0bbe84eba47434a0004fc65797b87ef1c913b7",
+  "0xBAF129Da8CF3d9338E08c96b9fe3DD297B41052c",
+  "0xFd086DcfA3734B3E4dbc5e91be5B8062EfC3Cf85",
+  "0x37E5f6da4E89D9f0Cd67a4acFaa87713BCBd9F21",
+];
 
 // Task that takes the log data and outputs a csv listing who gets rewards based on tasks completed.
 // Anyone who completed the "registration" task and one other task get the full rewards

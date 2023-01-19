@@ -18,7 +18,7 @@ jobs:
       - name: Build production web app
         env:
           RPC_URL: ${{ secrets.RPC_URL }}
-        run: cd web-app && REACT_APP_NETWORK_NAME=goerli REACT_APP_RPC_URL=https://eth-goerli.g.alchemy.com/v2/BmeE24z1l0uRuJyN7kY1NTMTTSRB8LCU yarn build
+        run: cd web-app && REACT_APP_NETWORK_NAME=ethereum REACT_APP_RPC_URL=https://eth.llamarpc.com yarn build
         shell: bash
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v2

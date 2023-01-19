@@ -19,6 +19,10 @@ const config: HardhatUserConfig = {
       chainId: 5,
       url: process.env.GOERLI_RPC_URL,
     },
+    ethereum: {
+      chainId: 1,
+      url: process.env.ETHEREUM_RPC_URL,
+    },
   },
   gasReporter: {
     // enabled: process.env.REPORT_GAS !== undefined,
